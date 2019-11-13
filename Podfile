@@ -10,13 +10,4 @@ target 'SuperChat' do
   pod 'IQKeyboardManagerSwift'
   pod "ViewAnimator"
 
-  target 'SuperChatTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'SuperChatUITests' do
-    # Pods for testing
-  end
-
 end
