@@ -1,0 +1,24 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.2)
+  - SamuraiTransition (1.1.1)
+  - ViewAnimator (2.7.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SamuraiTransition
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - SamuraiTransition
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c75366f1f19590e8caeae45fcd5815c9289d6099
+  SamuraiTransition: 62423738d6948d2fb460648c44a8a7b71cbedeff
+  ViewAnimator: 5af1c6f3b310f012bf081259c43717aa54fbae73
+
+PODFILE CHECKSUM: 149e9968c239484c09295889defc589d88642320
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module Pods_SuperChat_SuperChatUITests {
+  umbrella header "Pods-SuperChat-SuperChatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

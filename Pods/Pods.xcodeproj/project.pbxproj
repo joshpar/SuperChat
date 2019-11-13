@@ -1,0 +1,1488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E427A032ADAB64225CA01C76E7E3A9 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA65E34DC13D54FE4087BA0BAC1B53 /* IQUIScrollView+Additions.swift */; };
+		0FC427138A0D11CC18C78972E6D30E57 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BBF207672B5A640139CA6FAA7F8BF4 /* IQToolbar.swift */; };
+		11D66F789A3D4E3FDAF9E99F9BC1A26C /* Pods-SuperChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A33F883DFDAA09A5B7F3EEAA9E4DC45 /* Pods-SuperChat-dummy.m */; };
+		16C70105CC51E3C73D1107FBEF78F521 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9043D8D2E88D26FD0A86191B0A313EB6 /* IQUIView+Hierarchy.swift */; };
+		176D580D34B1957DF53471C4A2A9F3CD /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AEE32BF0DC8A46812F40C510B40F13 /* IQUIViewController+Additions.swift */; };
+		19C12C18218D5085864EB2DB2FA8B63C /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFFE4AA5D3FAB141CB4D1EF9DD90663 /* IQKeyboardManagerConstants.swift */; };
+		1DA76C0BA90262183CD3A903FA70FC92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		1FDB2CFA06BCE2DA06DA6DA26D598BD4 /* ShreddedZanConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FABB1A729FCF12E5294801D908CC306 /* ShreddedZanConfig.swift */; };
+		297F85DE0BF70E0BBCFC55A4EABE3AF7 /* ViewAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDA9D39E9B772DFEC1B0106D4D7A09 /* ViewAnimator-dummy.m */; };
+		2AC30876C833990D744C30FF47B32EE8 /* UICollectionView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FEED6104E5696A0DEC3EC5EBB0902E /* UICollectionView + ViewAnimator.swift */; };
+		2EEDAC83A56B817A1F5D815FD9F699B9 /* CrossZanConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99D847E8AE7E55F95BF73A37771E10 /* CrossZanConfig.swift */; };
+		32FB52A492FD7BC12D9C81F24A666483 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FB6FAA8D8E29FFB2607B4D0685E82B /* IQBarButtonItem.swift */; };
+		330DA634EB85DB4EAE9371494F1FB8E4 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9E85371D91EA6D3D5EDA7F3408293 /* IQPreviousNextView.swift */; };
+		361B77EA491A6D2EA9053D734B8FA5BA /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF775785EC3211AFCAD8CEA586A62A61 /* IQNSArray+Sort.swift */; };
+		379347BA5832D4F543B74991D701E996 /* RectangleZanConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E48C05F0022D7E64A4BA4B426329D4 /* RectangleZanConfig.swift */; };
+		3CE84CB29E1ED3245BF5819F02CBACFB /* SamuraiTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86800A077856BBA5496C7A3811DAEC32 /* SamuraiTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CED1A2566314D3FEEED3A44EF119249 /* CircleZanConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C57E5AFE242DA0C3F699E55EBAD73D /* CircleZanConfig.swift */; };
+		3D24A0293788B6740CA06D127A930F02 /* UITableView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E92AB36D386D90C9B9005A597A4FBC /* UITableView + ViewAnimator.swift */; };
+		3EC52C8A6BABE4066E466519E31C3E03 /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 391A61ECC36A1C5C74A7B0963DA3D2AC /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		414A2921F232522F2647578CA5641934 /* Pods-SuperChat-SuperChatUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C802ACADD0D2D282B282984971C7B85A /* Pods-SuperChat-SuperChatUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4246F573A2C518049E394CE5624C475E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		44A41A19C4EBB3E69F800EF54C82A661 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608FAE3814CC8B5620F490C89B82F9AE /* Direction.swift */; };
+		46935F12196B8113019740EA716549BB /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3591C7F71DCDE8675298DF422D206FE8 /* ViewAnimator.swift */; };
+		474BD176D99232B052652223E9CE4BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		58CDDC315D072611DC4E0E8D7B2B399B /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B70A2CD48185A6CBC5B23EAD3AE8EE /* Animation.swift */; };
+		5B28C44616CC573A3D8DB9EAB93CFB24 /* XZanConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F930644BEECFD62014DD23B40C293 /* XZanConfig.swift */; };
+		681342E5C18E296BF40684DDDC04D88B /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7F8373770B0968230A56C690FCA57 /* IQUITextFieldView+Additions.swift */; };
+		6A02E3C707A1A104DCDD85953BC8BDEC /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A90F7AB92A8E1CB6971D5A8896E3E /* IQKeyboardManagerSwift-dummy.m */; };
+		6A4DA0F3D04D1D6959AEB6AC0FF30D3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */; };
+		6C72E988C04C3F87D6C0306DF85C4705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		6CADD01E4E3FB3404A9C42D8A7F394EA /* ZanViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB550D09C16E2763FA1F4EF86DE89D0D /* ZanViewConfig.swift */; };
+		776762B2DE00282EBC0EB4AF61B60DD8 /* ChoppedZanConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9521084BCA909483701AEC51730945 /* ChoppedZanConfig.swift */; };
+		77D9E1BA247DE33B9BBF954A3EA69BB2 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913CCACC51ED4C6763D6E96068BEAC96 /* IQUIView+IQKeyboardToolbar.swift */; };
+		7CD4FF0AE691ACB3A2C1C8431303B024 /* Pods-SuperChat-SuperChatUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24CEBEB7E55C3CB5DD55FEB9520EC4 /* Pods-SuperChat-SuperChatUITests-dummy.m */; };
+		81393B44411A35759E116B55637E9AC2 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A42564DB4EC2DCB2F283482186C8B /* IQKeyboardReturnKeyHandler.swift */; };
+		86E16112E3DA618AA6046E09E11B1FD5 /* ViewAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6372F82C94CBA90A76EB764AD5D7F358 /* ViewAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C36374E50EBED233955ECBE6EDD3B05 /* ZanLineProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5FB911217F135AA41A2C4C8B6EA21B /* ZanLineProtocol.swift */; };
+		8CC2218B480DA0CD72829A5C4AEA8929 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A1E3DDDAD6E05769038DD1589CF507 /* IQInvocation.swift */; };
+		9D232171BB3CFD69B92A5FCA4A0C7582 /* HorizontalZanConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3A6616718F26BF1CA8592CE986362 /* HorizontalZanConfig.swift */; };
+		9D2B85D55938732D80D117CBA4DF67DB /* SamuraiConfigProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EC646CE81F6D417D3A8E11C7A72610 /* SamuraiConfigProtocol.swift */; };
+		9E237FDBB5909F3DC38F53F222E45A78 /* DiagonallyZanConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3124A397BFA7F17F9252B932FDA89F2 /* DiagonallyZanConfig.swift */; };
+		A15FE25A1FB7141DCEE46C69FB4821A2 /* Pods-SuperChatTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8C82ABAF80775E675802C8537A6ED4 /* Pods-SuperChatTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2195480FD04EAD347BB54512D60F925 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */; };
+		A6ACF3873DCAD3FCF1A773074ED922FC /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D5F402D8E4764B3D84F47AAFBA5FB8F5 /* IQKeyboardManager.bundle */; };
+		B4BCEEEC5B5E1CED773D28AA0BAD8965 /* VerticalZanConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B550D8F0FF8E9E9C540302B6A79B1A61 /* VerticalZanConfig.swift */; };
+		BD6DCC1280FBF8802E8256E27E72608D /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F0281447296B46484158DEBEBC4B96 /* ViewAnimatorConfig.swift */; };
+		C0BD556D43C16A24EDEFD9F3C16236E1 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91202AFC833E60A5642350B5B5D8C6EB /* IQTitleBarButtonItem.swift */; };
+		C5ADFAA9AC1A8E8F23D7CEC10A5084DF /* SamuraiTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6BAD110D6C6A7F80F5536A240D5F52 /* SamuraiTransition.swift */; };
+		CC069B0287D9AD5428F0C35460A8DD33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */; };
+		CC3F369DB061E3422F5500E3A8E70081 /* ZanViewConfigProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC562907A4F86E0C3560F0E3E06E604 /* ZanViewConfigProtocol.swift */; };
+		D55D066AB7BEC71F39DB7DA6532BA6DA /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88818EC712DBBB17B1504ABDB4B2AB66 /* IQKeyboardManager.swift */; };
+		D573E850A1F09AE567799AA632882755 /* Pods-SuperChatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BD0C8360F9BAAAD0B98E3349116927 /* Pods-SuperChatTests-dummy.m */; };
+		DC34D3747E9889A2EBB20CE738186034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		E10440A9992FC8A07D85484D5F9B364D /* JaggedZanConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5124B1209B5E7ABF8648E37E41B24 /* JaggedZanConfig.swift */; };
+		E26886AF475C38A700EA8604BBF32D56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
+		ED2BF54E8D1BD7BD70BF59563740E14E /* SamuraiTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EF703A055A1DE6FF61FA731215F83D /* SamuraiTransition-dummy.m */; };
+		F0A069BAC7EBC1C059C6712CE6C57316 /* TriangleZanConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8EEF8C2489B6B497ED24F31AE3073C /* TriangleZanConfig.swift */; };
+		F15EBF3D52451407FC4611128D846BEC /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9482D9EBA6768A5EFC45FF5982D4CF1E /* IQTextView.swift */; };
+		F6A2485B3CF8F1F309EA25367B006E4E /* Pods-SuperChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3821CACF406C0C1E8B0A65F2958024E /* Pods-SuperChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6D4B7E71AE03734273059DF59D61C1E /* Zan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74D9898DFEADA2CF75E8D72AA738B26 /* Zan.swift */; };
+		FB2333E2D1021FF425308F7A36745B3E /* SamuraiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EC8C506293D92CF10E57CD5EE84281 /* SamuraiViewController.swift */; };
+		FB37642881B8D1191B1E60BBE6AAD4D7 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AFF8E93DC3983598A833B532E7798 /* IQKeyboardManagerConstantsInternal.swift */; };
+		FB5B2EF00978168F84353DD89B808567 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FEBA7F13F878CFCC4E5917017C29A3 /* AnimationType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73F07B601B04A4DD4CACEF1154FAB1B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4FF4DA95B150679DB1E2565427CD51B;
+			remoteInfo = "Pods-SuperChat";
+		};
+		A475AADED44239A11802005191EE6DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		B3E5375EF6CA15AD6A905487CAACF6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91BFC2827E7E6E2B51AB2CFF58AC6317;
+			remoteInfo = ViewAnimator;
+		};
+		BC84AAF0B5B0AB4CC039AFC6E9C02B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		ED3B0AF0CB9F8246F7A32D60260F94B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C316A5B8DEBC6E1F6E28193202811E;
+			remoteInfo = SamuraiTransition;
+		};
+		F24132230F0E96C96715D0B873DE64D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C316A5B8DEBC6E1F6E28193202811E;
+			remoteInfo = SamuraiTransition;
+		};
+		F7E22AEEC0C5354F674BFAE2DB572670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91BFC2827E7E6E2B51AB2CFF58AC6317;
+			remoteInfo = ViewAnimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039F7CC89970F15EE3B096BC4020D3C9 /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
+		0528C5FC69FBC6ACDD286B7ACC37139D /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		0FABB1A729FCF12E5294801D908CC306 /* ShreddedZanConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShreddedZanConfig.swift; path = SamuraiTransition/Zan/Config/ShreddedZanConfig.swift; sourceTree = "<group>"; };
+		16E92AB36D386D90C9B9005A597A4FBC /* UITableView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UITableView + ViewAnimator.swift"; sourceTree = "<group>"; };
+		1DC9E85371D91EA6D3D5EDA7F3408293 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		1ECA65E34DC13D54FE4087BA0BAC1B53 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		20B1CAEAB9845FEC2E958BBEAB43BC4E /* SamuraiTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SamuraiTransition.framework; path = SamuraiTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22524A99BBC19D742A29F8AE462D56FB /* SamuraiTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SamuraiTransition.xcconfig; sourceTree = "<group>"; };
+		2417C4AF37C01D178EF30996A3CC79FB /* Pods_SuperChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SuperChatTests.framework; path = "Pods-SuperChatTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330A097D5E67F289D690E42A11A6A551 /* Pods-SuperChat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperChat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3591C7F71DCDE8675298DF422D206FE8 /* ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimator.swift; path = ViewAnimator/Classes/ViewAnimator.swift; sourceTree = "<group>"; };
+		35C57E5AFE242DA0C3F699E55EBAD73D /* CircleZanConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleZanConfig.swift; path = SamuraiTransition/Zan/Config/CircleZanConfig.swift; sourceTree = "<group>"; };
+		391A61ECC36A1C5C74A7B0963DA3D2AC /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		3A33F883DFDAA09A5B7F3EEAA9E4DC45 /* Pods-SuperChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperChat-dummy.m"; sourceTree = "<group>"; };
+		3C6BAD110D6C6A7F80F5536A240D5F52 /* SamuraiTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SamuraiTransition.swift; path = SamuraiTransition/SamuraiTransition.swift; sourceTree = "<group>"; };
+		40FD2018E34243AEE750353F0550680D /* ViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ViewAnimator.modulemap; sourceTree = "<group>"; };
+		434DDA6DEB896EB2BAD54C5F65D14639 /* Pods_SuperChat_SuperChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SuperChat_SuperChatUITests.framework; path = "Pods-SuperChat-SuperChatUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FB95AECF73C47099E5E2A7DC84CD6D /* SamuraiTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SamuraiTransition-prefix.pch"; sourceTree = "<group>"; };
+		4EEDA9D39E9B772DFEC1B0106D4D7A09 /* ViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewAnimator-dummy.m"; sourceTree = "<group>"; };
+		4FF71796DAA17E2770ADB847EBE79F01 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		51EC646CE81F6D417D3A8E11C7A72610 /* SamuraiConfigProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SamuraiConfigProtocol.swift; path = SamuraiTransition/Zan/Config/SamuraiConfigProtocol.swift; sourceTree = "<group>"; };
+		56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5AFFE4AA5D3FAB141CB4D1EF9DD90663 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		608FAE3814CC8B5620F490C89B82F9AE /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = ViewAnimator/Classes/Models/Direction.swift; sourceTree = "<group>"; };
+		62A1E3DDDAD6E05769038DD1589CF507 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		6372F82C94CBA90A76EB764AD5D7F358 /* ViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-umbrella.h"; sourceTree = "<group>"; };
+		6497B1CCDC565741C1664F031A4A6C99 /* Pods-SuperChat-SuperChatUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperChat-SuperChatUITests-frameworks.sh"; sourceTree = "<group>"; };
+		64E48C05F0022D7E64A4BA4B426329D4 /* RectangleZanConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectangleZanConfig.swift; path = SamuraiTransition/Zan/Config/RectangleZanConfig.swift; sourceTree = "<group>"; };
+		667A90F7AB92A8E1CB6971D5A8896E3E /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		66EF703A055A1DE6FF61FA731215F83D /* SamuraiTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SamuraiTransition-dummy.m"; sourceTree = "<group>"; };
+		6E99D847E8AE7E55F95BF73A37771E10 /* CrossZanConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossZanConfig.swift; path = SamuraiTransition/Zan/Config/CrossZanConfig.swift; sourceTree = "<group>"; };
+		70FB6FAA8D8E29FFB2607B4D0685E82B /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		7179C4CCFC40693C298790433A85CA2B /* Pods_SuperChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SuperChat.framework; path = "Pods-SuperChat.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B5FB911217F135AA41A2C4C8B6EA21B /* ZanLineProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZanLineProtocol.swift; path = SamuraiTransition/Zan/Config/ZanLineProtocol.swift; sourceTree = "<group>"; };
+		81B1AFB662E5B220DBDF5E4E7245FE71 /* Pods-SuperChat-SuperChatUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperChat-SuperChatUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		81D7F8373770B0968230A56C690FCA57 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		82FEED6104E5696A0DEC3EC5EBB0902E /* UICollectionView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UICollectionView + ViewAnimator.swift"; sourceTree = "<group>"; };
+		84AF8E44383E85F381410688C211BAC4 /* Pods-SuperChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperChat.release.xcconfig"; sourceTree = "<group>"; };
+		84B70A2CD48185A6CBC5B23EAD3AE8EE /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = ViewAnimator/Classes/Protocols/Animation.swift; sourceTree = "<group>"; };
+		86800A077856BBA5496C7A3811DAEC32 /* SamuraiTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SamuraiTransition-umbrella.h"; sourceTree = "<group>"; };
+		86F0281447296B46484158DEBEBC4B96 /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimatorConfig.swift; path = ViewAnimator/Classes/ViewAnimatorConfig.swift; sourceTree = "<group>"; };
+		88818EC712DBBB17B1504ABDB4B2AB66 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		8A6B7FD65A28B4F76DA75D989C7D6E4C /* ViewAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ViewAnimator-Info.plist"; sourceTree = "<group>"; };
+		8E8EEF8C2489B6B497ED24F31AE3073C /* TriangleZanConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriangleZanConfig.swift; path = SamuraiTransition/Zan/Config/TriangleZanConfig.swift; sourceTree = "<group>"; };
+		9043D8D2E88D26FD0A86191B0A313EB6 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		90A3DBDC18B1A9B66D0FEF4AFCBF48F4 /* Pods-SuperChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91202AFC833E60A5642350B5B5D8C6EB /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		913CCACC51ED4C6763D6E96068BEAC96 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		9482D9EBA6768A5EFC45FF5982D4CF1E /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		992FDE1F3914B2638F72C45CD702FA4F /* ViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1B7E2E3975A3A833C09EE6BB0C1EAE9 /* Pods-SuperChat-SuperChatUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SuperChat-SuperChatUITests.modulemap"; sourceTree = "<group>"; };
+		A1EC8C506293D92CF10E57CD5EE84281 /* SamuraiViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SamuraiViewController.swift; path = SamuraiTransition/ViewController/SamuraiViewController.swift; sourceTree = "<group>"; };
+		A4D23569EF66DAED51C8DC7744BF5B8C /* Pods-SuperChatTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperChatTests-Info.plist"; sourceTree = "<group>"; };
+		A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ViewAnimator.framework; path = ViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A968EF1A9C9AE3386ACD937552DFF187 /* Pods-SuperChatTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SuperChatTests.modulemap"; sourceTree = "<group>"; };
+		AA9521084BCA909483701AEC51730945 /* ChoppedZanConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChoppedZanConfig.swift; path = SamuraiTransition/Zan/Config/ChoppedZanConfig.swift; sourceTree = "<group>"; };
+		AB3F930644BEECFD62014DD23B40C293 /* XZanConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XZanConfig.swift; path = SamuraiTransition/Zan/Config/XZanConfig.swift; sourceTree = "<group>"; };
+		AC1DA4725FD52DDBDA0033D601D64EE6 /* Pods-SuperChatTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperChatTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF0E439F4A651447E83E1CE428B06A78 /* ViewAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.xcconfig; sourceTree = "<group>"; };
+		AF775785EC3211AFCAD8CEA586A62A61 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		B0D56241F4016AF461EFD3C633AB0E82 /* Pods-SuperChat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperChat-Info.plist"; sourceTree = "<group>"; };
+		B2BBF207672B5A640139CA6FAA7F8BF4 /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		B3124A397BFA7F17F9252B932FDA89F2 /* DiagonallyZanConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiagonallyZanConfig.swift; path = SamuraiTransition/Zan/Config/DiagonallyZanConfig.swift; sourceTree = "<group>"; };
+		B550D8F0FF8E9E9C540302B6A79B1A61 /* VerticalZanConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalZanConfig.swift; path = SamuraiTransition/Zan/Config/VerticalZanConfig.swift; sourceTree = "<group>"; };
+		B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BAF940961221C90C3750FF9E142C4543 /* Pods-SuperChatTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperChatTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC22A91AC5D21FF712BD07EB2B57716E /* Pods-SuperChat-SuperChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperChat-SuperChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCC562907A4F86E0C3560F0E3E06E604 /* ZanViewConfigProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZanViewConfigProtocol.swift; path = SamuraiTransition/Zan/Config/ZanViewConfigProtocol.swift; sourceTree = "<group>"; };
+		BE9AFF8E93DC3983598A833B532E7798 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		C33E7C2F1C603C1A1F9410B2694B0D3D /* SamuraiTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SamuraiTransition.modulemap; sourceTree = "<group>"; };
+		C802ACADD0D2D282B282984971C7B85A /* Pods-SuperChat-SuperChatUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperChat-SuperChatUITests-umbrella.h"; sourceTree = "<group>"; };
+		D26A0C34D7BE2BF33A119A95BFF5541A /* Pods-SuperChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SuperChat.modulemap"; sourceTree = "<group>"; };
+		D3F1DFEB4A44B740DF7FAEC275831159 /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
+		D5F402D8E4764B3D84F47AAFBA5FB8F5 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		D74D9898DFEADA2CF75E8D72AA738B26 /* Zan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zan.swift; path = SamuraiTransition/Zan/Zan.swift; sourceTree = "<group>"; };
+		DDD4F455AF815A1D148EE5A12AFDB964 /* Pods-SuperChat-SuperChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperChat-SuperChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DEE21174381DF2C18A120B27BDC16DD8 /* Pods-SuperChat-SuperChatUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperChat-SuperChatUITests-Info.plist"; sourceTree = "<group>"; };
+		DF8C82ABAF80775E675802C8537A6ED4 /* Pods-SuperChatTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperChatTests-umbrella.h"; sourceTree = "<group>"; };
+		E1AF9957165871D04DDCEBA8036736CC /* Pods-SuperChat-SuperChatUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperChat-SuperChatUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E21A42564DB4EC2DCB2F283482186C8B /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		E2BD0C8360F9BAAAD0B98E3349116927 /* Pods-SuperChatTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperChatTests-dummy.m"; sourceTree = "<group>"; };
+		EAC5124B1209B5E7ABF8648E37E41B24 /* JaggedZanConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JaggedZanConfig.swift; path = SamuraiTransition/Zan/Config/JaggedZanConfig.swift; sourceTree = "<group>"; };
+		EB550D09C16E2763FA1F4EF86DE89D0D /* ZanViewConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZanViewConfig.swift; path = SamuraiTransition/Zan/Config/ZanViewConfig.swift; sourceTree = "<group>"; };
+		EF24CEBEB7E55C3CB5DD55FEB9520EC4 /* Pods-SuperChat-SuperChatUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperChat-SuperChatUITests-dummy.m"; sourceTree = "<group>"; };
+		F140E2BF0BAF6F9AE52199D1C8D95594 /* Pods-SuperChat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperChat-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1AEE32BF0DC8A46812F40C510B40F13 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		F3821CACF406C0C1E8B0A65F2958024E /* Pods-SuperChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperChat-umbrella.h"; sourceTree = "<group>"; };
+		F44420720B9D1CEF53D26C0D50D2993B /* Pods-SuperChat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperChat-frameworks.sh"; sourceTree = "<group>"; };
+		F5FEBA7F13F878CFCC4E5917017C29A3 /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = ViewAnimator/Classes/Models/AnimationType.swift; sourceTree = "<group>"; };
+		F875DE330571A7751848A40DB843B377 /* Pods-SuperChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperChat.debug.xcconfig"; sourceTree = "<group>"; };
+		F9F98C261A9390A6CADCC94287085AAE /* SamuraiTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SamuraiTransition-Info.plist"; sourceTree = "<group>"; };
+		FC1105E4DDF41656338A2D26FE9E1542 /* Pods-SuperChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		FEC3A6616718F26BF1CA8592CE986362 /* HorizontalZanConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalZanConfig.swift; path = SamuraiTransition/Zan/Config/HorizontalZanConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FE2597D7526E0D5CA4AED68D2B73A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC34D3747E9889A2EBB20CE738186034 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D6BDDFE00132ACF00BDFF7FF85407D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4246F573A2C518049E394CE5624C475E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574AFD59673947704DF970986A16AE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4DA0F3D04D1D6959AEB6AC0FF30D3C /* CoreGraphics.framework in Frameworks */,
+				474BD176D99232B052652223E9CE4BDB /* Foundation.framework in Frameworks */,
+				CC069B0287D9AD5428F0C35460A8DD33 /* QuartzCore.framework in Frameworks */,
+				A2195480FD04EAD347BB54512D60F925 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D3FD196F6EE37BE62340216230D13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA76C0BA90262183CD3A903FA70FC92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F8CEE48F5E5B43BF343771890BDE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C72E988C04C3F87D6C0306DF85C4705 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA60831466F420BE7F8D894C65B3EF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26886AF475C38A700EA8604BBF32D56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012249CB83D605241744E4D9B14FE555 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF13CFC1E2C076C21594852BF64B437C /* Pods-SuperChat */,
+				9777D8FAF6FF473A46548E958D42554E /* Pods-SuperChat-SuperChatUITests */,
+				6584F79752D617B22BE7DE50CDEF00C3 /* Pods-SuperChatTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		216D11D6253026459814863746CC99A1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */,
+				762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */,
+				B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */,
+				56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2EF472438C6BE41D87C700D80DC49CBB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0528C5FC69FBC6ACDD286B7ACC37139D /* IQKeyboardManagerSwift.modulemap */,
+				039F7CC89970F15EE3B096BC4020D3C9 /* IQKeyboardManagerSwift.xcconfig */,
+				667A90F7AB92A8E1CB6971D5A8896E3E /* IQKeyboardManagerSwift-dummy.m */,
+				D3F1DFEB4A44B740DF7FAEC275831159 /* IQKeyboardManagerSwift-Info.plist */,
+				4FF71796DAA17E2770ADB847EBE79F01 /* IQKeyboardManagerSwift-prefix.pch */,
+				391A61ECC36A1C5C74A7B0963DA3D2AC /* IQKeyboardManagerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		4F12B61AB780458286D297683A4D93E1 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				70FB6FAA8D8E29FFB2607B4D0685E82B /* IQBarButtonItem.swift */,
+				62A1E3DDDAD6E05769038DD1589CF507 /* IQInvocation.swift */,
+				88818EC712DBBB17B1504ABDB4B2AB66 /* IQKeyboardManager.swift */,
+				5AFFE4AA5D3FAB141CB4D1EF9DD90663 /* IQKeyboardManagerConstants.swift */,
+				BE9AFF8E93DC3983598A833B532E7798 /* IQKeyboardManagerConstantsInternal.swift */,
+				E21A42564DB4EC2DCB2F283482186C8B /* IQKeyboardReturnKeyHandler.swift */,
+				AF775785EC3211AFCAD8CEA586A62A61 /* IQNSArray+Sort.swift */,
+				1DC9E85371D91EA6D3D5EDA7F3408293 /* IQPreviousNextView.swift */,
+				9482D9EBA6768A5EFC45FF5982D4CF1E /* IQTextView.swift */,
+				91202AFC833E60A5642350B5B5D8C6EB /* IQTitleBarButtonItem.swift */,
+				B2BBF207672B5A640139CA6FAA7F8BF4 /* IQToolbar.swift */,
+				1ECA65E34DC13D54FE4087BA0BAC1B53 /* IQUIScrollView+Additions.swift */,
+				81D7F8373770B0968230A56C690FCA57 /* IQUITextFieldView+Additions.swift */,
+				9043D8D2E88D26FD0A86191B0A313EB6 /* IQUIView+Hierarchy.swift */,
+				913CCACC51ED4C6763D6E96068BEAC96 /* IQUIView+IQKeyboardToolbar.swift */,
+				F1AEE32BF0DC8A46812F40C510B40F13 /* IQUIViewController+Additions.swift */,
+				F3A7DD1BBEF56079581CCC5073E47877 /* Resources */,
+				2EF472438C6BE41D87C700D80DC49CBB /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		6584F79752D617B22BE7DE50CDEF00C3 /* Pods-SuperChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				A968EF1A9C9AE3386ACD937552DFF187 /* Pods-SuperChatTests.modulemap */,
+				AC1DA4725FD52DDBDA0033D601D64EE6 /* Pods-SuperChatTests-acknowledgements.markdown */,
+				BAF940961221C90C3750FF9E142C4543 /* Pods-SuperChatTests-acknowledgements.plist */,
+				E2BD0C8360F9BAAAD0B98E3349116927 /* Pods-SuperChatTests-dummy.m */,
+				A4D23569EF66DAED51C8DC7744BF5B8C /* Pods-SuperChatTests-Info.plist */,
+				DF8C82ABAF80775E675802C8537A6ED4 /* Pods-SuperChatTests-umbrella.h */,
+				90A3DBDC18B1A9B66D0FEF4AFCBF48F4 /* Pods-SuperChatTests.debug.xcconfig */,
+				FC1105E4DDF41656338A2D26FE9E1542 /* Pods-SuperChatTests.release.xcconfig */,
+			);
+			name = "Pods-SuperChatTests";
+			path = "Target Support Files/Pods-SuperChatTests";
+			sourceTree = "<group>";
+		};
+		7A921502F07E5044E79E102BCF4208C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
+				7179C4CCFC40693C298790433A85CA2B /* Pods_SuperChat.framework */,
+				434DDA6DEB896EB2BAD54C5F65D14639 /* Pods_SuperChat_SuperChatUITests.framework */,
+				2417C4AF37C01D178EF30996A3CC79FB /* Pods_SuperChatTests.framework */,
+				20B1CAEAB9845FEC2E958BBEAB43BC4E /* SamuraiTransition.framework */,
+				A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9777D8FAF6FF473A46548E958D42554E /* Pods-SuperChat-SuperChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B7E2E3975A3A833C09EE6BB0C1EAE9 /* Pods-SuperChat-SuperChatUITests.modulemap */,
+				E1AF9957165871D04DDCEBA8036736CC /* Pods-SuperChat-SuperChatUITests-acknowledgements.markdown */,
+				81B1AFB662E5B220DBDF5E4E7245FE71 /* Pods-SuperChat-SuperChatUITests-acknowledgements.plist */,
+				EF24CEBEB7E55C3CB5DD55FEB9520EC4 /* Pods-SuperChat-SuperChatUITests-dummy.m */,
+				6497B1CCDC565741C1664F031A4A6C99 /* Pods-SuperChat-SuperChatUITests-frameworks.sh */,
+				DEE21174381DF2C18A120B27BDC16DD8 /* Pods-SuperChat-SuperChatUITests-Info.plist */,
+				C802ACADD0D2D282B282984971C7B85A /* Pods-SuperChat-SuperChatUITests-umbrella.h */,
+				BC22A91AC5D21FF712BD07EB2B57716E /* Pods-SuperChat-SuperChatUITests.debug.xcconfig */,
+				DDD4F455AF815A1D148EE5A12AFDB964 /* Pods-SuperChat-SuperChatUITests.release.xcconfig */,
+			);
+			name = "Pods-SuperChat-SuperChatUITests";
+			path = "Target Support Files/Pods-SuperChat-SuperChatUITests";
+			sourceTree = "<group>";
+		};
+		A5D9CDBDEF388B518DC9ED74D4664D3D /* ViewAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				84B70A2CD48185A6CBC5B23EAD3AE8EE /* Animation.swift */,
+				F5FEBA7F13F878CFCC4E5917017C29A3 /* AnimationType.swift */,
+				608FAE3814CC8B5620F490C89B82F9AE /* Direction.swift */,
+				82FEED6104E5696A0DEC3EC5EBB0902E /* UICollectionView + ViewAnimator.swift */,
+				16E92AB36D386D90C9B9005A597A4FBC /* UITableView + ViewAnimator.swift */,
+				3591C7F71DCDE8675298DF422D206FE8 /* ViewAnimator.swift */,
+				86F0281447296B46484158DEBEBC4B96 /* ViewAnimatorConfig.swift */,
+				E4E7D3F44F70105A4C4511466132A3CE /* Support Files */,
+			);
+			name = ViewAnimator;
+			path = ViewAnimator;
+			sourceTree = "<group>";
+		};
+		B818CF57A8850C179237A11F3C4ED3C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F12B61AB780458286D297683A4D93E1 /* IQKeyboardManagerSwift */,
+				F20C209A2D035CD17BB80EB13F362963 /* SamuraiTransition */,
+				A5D9CDBDEF388B518DC9ED74D4664D3D /* ViewAnimator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216D11D6253026459814863746CC99A1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE912094CE1E34901B7E4482777E013C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33E7C2F1C603C1A1F9410B2694B0D3D /* SamuraiTransition.modulemap */,
+				22524A99BBC19D742A29F8AE462D56FB /* SamuraiTransition.xcconfig */,
+				66EF703A055A1DE6FF61FA731215F83D /* SamuraiTransition-dummy.m */,
+				F9F98C261A9390A6CADCC94287085AAE /* SamuraiTransition-Info.plist */,
+				47FB95AECF73C47099E5E2A7DC84CD6D /* SamuraiTransition-prefix.pch */,
+				86800A077856BBA5496C7A3811DAEC32 /* SamuraiTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SamuraiTransition";
+			sourceTree = "<group>";
+		};
+		CF13CFC1E2C076C21594852BF64B437C /* Pods-SuperChat */ = {
+			isa = PBXGroup;
+			children = (
+				D26A0C34D7BE2BF33A119A95BFF5541A /* Pods-SuperChat.modulemap */,
+				330A097D5E67F289D690E42A11A6A551 /* Pods-SuperChat-acknowledgements.markdown */,
+				F140E2BF0BAF6F9AE52199D1C8D95594 /* Pods-SuperChat-acknowledgements.plist */,
+				3A33F883DFDAA09A5B7F3EEAA9E4DC45 /* Pods-SuperChat-dummy.m */,
+				F44420720B9D1CEF53D26C0D50D2993B /* Pods-SuperChat-frameworks.sh */,
+				B0D56241F4016AF461EFD3C633AB0E82 /* Pods-SuperChat-Info.plist */,
+				F3821CACF406C0C1E8B0A65F2958024E /* Pods-SuperChat-umbrella.h */,
+				F875DE330571A7751848A40DB843B377 /* Pods-SuperChat.debug.xcconfig */,
+				84AF8E44383E85F381410688C211BAC4 /* Pods-SuperChat.release.xcconfig */,
+			);
+			name = "Pods-SuperChat";
+			path = "Target Support Files/Pods-SuperChat";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				B818CF57A8850C179237A11F3C4ED3C6 /* Pods */,
+				7A921502F07E5044E79E102BCF4208C9 /* Products */,
+				012249CB83D605241744E4D9B14FE555 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E4E7D3F44F70105A4C4511466132A3CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40FD2018E34243AEE750353F0550680D /* ViewAnimator.modulemap */,
+				AF0E439F4A651447E83E1CE428B06A78 /* ViewAnimator.xcconfig */,
+				4EEDA9D39E9B772DFEC1B0106D4D7A09 /* ViewAnimator-dummy.m */,
+				8A6B7FD65A28B4F76DA75D989C7D6E4C /* ViewAnimator-Info.plist */,
+				992FDE1F3914B2638F72C45CD702FA4F /* ViewAnimator-prefix.pch */,
+				6372F82C94CBA90A76EB764AD5D7F358 /* ViewAnimator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ViewAnimator";
+			sourceTree = "<group>";
+		};
+		F20C209A2D035CD17BB80EB13F362963 /* SamuraiTransition */ = {
+			isa = PBXGroup;
+			children = (
+				AA9521084BCA909483701AEC51730945 /* ChoppedZanConfig.swift */,
+				35C57E5AFE242DA0C3F699E55EBAD73D /* CircleZanConfig.swift */,
+				6E99D847E8AE7E55F95BF73A37771E10 /* CrossZanConfig.swift */,
+				B3124A397BFA7F17F9252B932FDA89F2 /* DiagonallyZanConfig.swift */,
+				FEC3A6616718F26BF1CA8592CE986362 /* HorizontalZanConfig.swift */,
+				EAC5124B1209B5E7ABF8648E37E41B24 /* JaggedZanConfig.swift */,
+				64E48C05F0022D7E64A4BA4B426329D4 /* RectangleZanConfig.swift */,
+				51EC646CE81F6D417D3A8E11C7A72610 /* SamuraiConfigProtocol.swift */,
+				3C6BAD110D6C6A7F80F5536A240D5F52 /* SamuraiTransition.swift */,
+				A1EC8C506293D92CF10E57CD5EE84281 /* SamuraiViewController.swift */,
+				0FABB1A729FCF12E5294801D908CC306 /* ShreddedZanConfig.swift */,
+				8E8EEF8C2489B6B497ED24F31AE3073C /* TriangleZanConfig.swift */,
+				B550D8F0FF8E9E9C540302B6A79B1A61 /* VerticalZanConfig.swift */,
+				AB3F930644BEECFD62014DD23B40C293 /* XZanConfig.swift */,
+				D74D9898DFEADA2CF75E8D72AA738B26 /* Zan.swift */,
+				7B5FB911217F135AA41A2C4C8B6EA21B /* ZanLineProtocol.swift */,
+				EB550D09C16E2763FA1F4EF86DE89D0D /* ZanViewConfig.swift */,
+				BCC562907A4F86E0C3560F0E3E06E604 /* ZanViewConfigProtocol.swift */,
+				BE912094CE1E34901B7E4482777E013C /* Support Files */,
+			);
+			name = SamuraiTransition;
+			path = SamuraiTransition;
+			sourceTree = "<group>";
+		};
+		F3A7DD1BBEF56079581CCC5073E47877 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5F402D8E4764B3D84F47AAFBA5FB8F5 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C44C80EE5F75354AC0863AA361B1E1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414A2921F232522F2647578CA5641934 /* Pods-SuperChat-SuperChatUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3284C20472AFF6A63A7094CE20A5E3D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC52C8A6BABE4066E466519E31C3E03 /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4B687A3EF894844EF54057D424AD8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE84CB29E1ED3245BF5819F02CBACFB /* SamuraiTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34F449FEAC365975511675B66C3787D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A2485B3CF8F1F309EA25367B006E4E /* Pods-SuperChat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01257361E898E374FB0A6911FB063C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E16112E3DA618AA6046E09E11B1FD5 /* ViewAnimator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BDE270AD8B1EA41C6E14D40EEC40DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15FE25A1FB7141DCEE46C69FB4821A2 /* Pods-SuperChatTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		605C48E1D784D4A30CA51DCEF61FD84F /* Pods-SuperChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FF517A6797B3C4C041829803159238 /* Build configuration list for PBXNativeTarget "Pods-SuperChatTests" */;
+			buildPhases = (
+				E0BDE270AD8B1EA41C6E14D40EEC40DB /* Headers */,
+				9C60087C0E1657377D5A043CA13B21A8 /* Sources */,
+				63D3FD196F6EE37BE62340216230D13C /* Frameworks */,
+				C277720B096A680E9FAE8474F1D6A27C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB903E7628DCB018A32BA4982DD4072 /* PBXTargetDependency */,
+			);
+			name = "Pods-SuperChatTests";
+			productName = "Pods-SuperChatTests";
+			productReference = 2417C4AF37C01D178EF30996A3CC79FB /* Pods_SuperChatTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86C316A5B8DEBC6E1F6E28193202811E /* SamuraiTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5286277A987DA4E2CD905351D2E1D4 /* Build configuration list for PBXNativeTarget "SamuraiTransition" */;
+			buildPhases = (
+				4D4B687A3EF894844EF54057D424AD8A /* Headers */,
+				83DEDB962D37D981E3B45CEB556A06CE /* Sources */,
+				FA60831466F420BE7F8D894C65B3EF40 /* Frameworks */,
+				5C8736F268C3347463A3381D4D99DF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamuraiTransition;
+			productName = SamuraiTransition;
+			productReference = 20B1CAEAB9845FEC2E958BBEAB43BC4E /* SamuraiTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFE5199A9D90502DB139AEABA7CBE7B /* Build configuration list for PBXNativeTarget "ViewAnimator" */;
+			buildPhases = (
+				C01257361E898E374FB0A6911FB063C7 /* Headers */,
+				3A823987FFCB5C3726EBB7A32E3B904E /* Sources */,
+				D2F8CEE48F5E5B43BF343771890BDE66 /* Frameworks */,
+				2954910303CBA399A078839A2F6CEC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewAnimator;
+			productName = ViewAnimator;
+			productReference = A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A23AD2065C73428E46B63BA28978B627 /* Pods-SuperChat-SuperChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539777089611DB914FD4BA77C0A97DFB /* Build configuration list for PBXNativeTarget "Pods-SuperChat-SuperChatUITests" */;
+			buildPhases = (
+				2C44C80EE5F75354AC0863AA361B1E1F /* Headers */,
+				D7C267D8C29971BA6BEEC6ED55A8A5C7 /* Sources */,
+				45D6BDDFE00132ACF00BDFF7FF85407D /* Frameworks */,
+				15A5349BBA2F2D9E1FAA1495FC875832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB0DA9C9ED84761D7E103E643E83EA4 /* PBXTargetDependency */,
+				F62D0D6CB99E11ACAA70DB7E488D15DD /* PBXTargetDependency */,
+				08A173F2DC56EAEBE79AECC33B85A4DD /* PBXTargetDependency */,
+			);
+			name = "Pods-SuperChat-SuperChatUITests";
+			productName = "Pods-SuperChat-SuperChatUITests";
+			productReference = 434DDA6DEB896EB2BAD54C5F65D14639 /* Pods_SuperChat_SuperChatUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E597D9C69E5746DA8B67E92762F51127 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				3284C20472AFF6A63A7094CE20A5E3D5 /* Headers */,
+				932E116E7F8DB07C1FC8E89E03A4FE57 /* Sources */,
+				574AFD59673947704DF970986A16AE22 /* Frameworks */,
+				3FE6BD24F8EC4E53E8CAB3C04F3A6884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4FF4DA95B150679DB1E2565427CD51B /* Pods-SuperChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF51363E12AC23FBCB614E9F1D1D1D6 /* Build configuration list for PBXNativeTarget "Pods-SuperChat" */;
+			buildPhases = (
+				B34F449FEAC365975511675B66C3787D /* Headers */,
+				0CFEF0DEBB882B865F744500251A30E8 /* Sources */,
+				1FE2597D7526E0D5CA4AED68D2B73A42 /* Frameworks */,
+				B3B1F11CB3E2FEAD356ABD3B844D62B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B21014589B55D6361777986AEA9D1B33 /* PBXTargetDependency */,
+				DD7F58728BAF6A185E9BC0FEAB618AB0 /* PBXTargetDependency */,
+				5C2C61E94BF9D664E7671C5B65AD73FF /* PBXTargetDependency */,
+			);
+			name = "Pods-SuperChat";
+			productName = "Pods-SuperChat";
+			productReference = 7179C4CCFC40693C298790433A85CA2B /* Pods_SuperChat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7A921502F07E5044E79E102BCF4208C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */,
+				D4FF4DA95B150679DB1E2565427CD51B /* Pods-SuperChat */,
+				A23AD2065C73428E46B63BA28978B627 /* Pods-SuperChat-SuperChatUITests */,
+				605C48E1D784D4A30CA51DCEF61FD84F /* Pods-SuperChatTests */,
+				86C316A5B8DEBC6E1F6E28193202811E /* SamuraiTransition */,
+				91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15A5349BBA2F2D9E1FAA1495FC875832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2954910303CBA399A078839A2F6CEC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE6BD24F8EC4E53E8CAB3C04F3A6884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6ACF3873DCAD3FCF1A773074ED922FC /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8736F268C3347463A3381D4D99DF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B1F11CB3E2FEAD356ABD3B844D62B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C277720B096A680E9FAE8474F1D6A27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CFEF0DEBB882B865F744500251A30E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D66F789A3D4E3FDAF9E99F9BC1A26C /* Pods-SuperChat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A823987FFCB5C3726EBB7A32E3B904E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CDDC315D072611DC4E0E8D7B2B399B /* Animation.swift in Sources */,
+				FB5B2EF00978168F84353DD89B808567 /* AnimationType.swift in Sources */,
+				44A41A19C4EBB3E69F800EF54C82A661 /* Direction.swift in Sources */,
+				2AC30876C833990D744C30FF47B32EE8 /* UICollectionView + ViewAnimator.swift in Sources */,
+				3D24A0293788B6740CA06D127A930F02 /* UITableView + ViewAnimator.swift in Sources */,
+				297F85DE0BF70E0BBCFC55A4EABE3AF7 /* ViewAnimator-dummy.m in Sources */,
+				46935F12196B8113019740EA716549BB /* ViewAnimator.swift in Sources */,
+				BD6DCC1280FBF8802E8256E27E72608D /* ViewAnimatorConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DEDB962D37D981E3B45CEB556A06CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776762B2DE00282EBC0EB4AF61B60DD8 /* ChoppedZanConfig.swift in Sources */,
+				3CED1A2566314D3FEEED3A44EF119249 /* CircleZanConfig.swift in Sources */,
+				2EEDAC83A56B817A1F5D815FD9F699B9 /* CrossZanConfig.swift in Sources */,
+				9E237FDBB5909F3DC38F53F222E45A78 /* DiagonallyZanConfig.swift in Sources */,
+				9D232171BB3CFD69B92A5FCA4A0C7582 /* HorizontalZanConfig.swift in Sources */,
+				E10440A9992FC8A07D85484D5F9B364D /* JaggedZanConfig.swift in Sources */,
+				379347BA5832D4F543B74991D701E996 /* RectangleZanConfig.swift in Sources */,
+				9D2B85D55938732D80D117CBA4DF67DB /* SamuraiConfigProtocol.swift in Sources */,
+				ED2BF54E8D1BD7BD70BF59563740E14E /* SamuraiTransition-dummy.m in Sources */,
+				C5ADFAA9AC1A8E8F23D7CEC10A5084DF /* SamuraiTransition.swift in Sources */,
+				FB2333E2D1021FF425308F7A36745B3E /* SamuraiViewController.swift in Sources */,
+				1FDB2CFA06BCE2DA06DA6DA26D598BD4 /* ShreddedZanConfig.swift in Sources */,
+				F0A069BAC7EBC1C059C6712CE6C57316 /* TriangleZanConfig.swift in Sources */,
+				B4BCEEEC5B5E1CED773D28AA0BAD8965 /* VerticalZanConfig.swift in Sources */,
+				5B28C44616CC573A3D8DB9EAB93CFB24 /* XZanConfig.swift in Sources */,
+				F6D4B7E71AE03734273059DF59D61C1E /* Zan.swift in Sources */,
+				8C36374E50EBED233955ECBE6EDD3B05 /* ZanLineProtocol.swift in Sources */,
+				6CADD01E4E3FB3404A9C42D8A7F394EA /* ZanViewConfig.swift in Sources */,
+				CC3F369DB061E3422F5500E3A8E70081 /* ZanViewConfigProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932E116E7F8DB07C1FC8E89E03A4FE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FB52A492FD7BC12D9C81F24A666483 /* IQBarButtonItem.swift in Sources */,
+				8CC2218B480DA0CD72829A5C4AEA8929 /* IQInvocation.swift in Sources */,
+				D55D066AB7BEC71F39DB7DA6532BA6DA /* IQKeyboardManager.swift in Sources */,
+				19C12C18218D5085864EB2DB2FA8B63C /* IQKeyboardManagerConstants.swift in Sources */,
+				FB37642881B8D1191B1E60BBE6AAD4D7 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				6A02E3C707A1A104DCDD85953BC8BDEC /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				81393B44411A35759E116B55637E9AC2 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				361B77EA491A6D2EA9053D734B8FA5BA /* IQNSArray+Sort.swift in Sources */,
+				330DA634EB85DB4EAE9371494F1FB8E4 /* IQPreviousNextView.swift in Sources */,
+				F15EBF3D52451407FC4611128D846BEC /* IQTextView.swift in Sources */,
+				C0BD556D43C16A24EDEFD9F3C16236E1 /* IQTitleBarButtonItem.swift in Sources */,
+				0FC427138A0D11CC18C78972E6D30E57 /* IQToolbar.swift in Sources */,
+				08E427A032ADAB64225CA01C76E7E3A9 /* IQUIScrollView+Additions.swift in Sources */,
+				681342E5C18E296BF40684DDDC04D88B /* IQUITextFieldView+Additions.swift in Sources */,
+				16C70105CC51E3C73D1107FBEF78F521 /* IQUIView+Hierarchy.swift in Sources */,
+				77D9E1BA247DE33B9BBF954A3EA69BB2 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				176D580D34B1957DF53471C4A2A9F3CD /* IQUIViewController+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C60087C0E1657377D5A043CA13B21A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D573E850A1F09AE567799AA632882755 /* Pods-SuperChatTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C267D8C29971BA6BEEC6ED55A8A5C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD4FF0AE691ACB3A2C1C8431303B024 /* Pods-SuperChat-SuperChatUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08A173F2DC56EAEBE79AECC33B85A4DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ViewAnimator;
+			target = 91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */;
+			targetProxy = F7E22AEEC0C5354F674BFAE2DB572670 /* PBXContainerItemProxy */;
+		};
+		5C2C61E94BF9D664E7671C5B65AD73FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ViewAnimator;
+			target = 91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */;
+			targetProxy = B3E5375EF6CA15AD6A905487CAACF6A2 /* PBXContainerItemProxy */;
+		};
+		6EB0DA9C9ED84761D7E103E643E83EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = BC84AAF0B5B0AB4CC039AFC6E9C02B34 /* PBXContainerItemProxy */;
+		};
+		B21014589B55D6361777986AEA9D1B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = A475AADED44239A11802005191EE6DB0 /* PBXContainerItemProxy */;
+		};
+		DAB903E7628DCB018A32BA4982DD4072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SuperChat";
+			target = D4FF4DA95B150679DB1E2565427CD51B /* Pods-SuperChat */;
+			targetProxy = 73F07B601B04A4DD4CACEF1154FAB1B7 /* PBXContainerItemProxy */;
+		};
+		DD7F58728BAF6A185E9BC0FEAB618AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SamuraiTransition;
+			target = 86C316A5B8DEBC6E1F6E28193202811E /* SamuraiTransition */;
+			targetProxy = ED3B0AF0CB9F8246F7A32D60260F94B5 /* PBXContainerItemProxy */;
+		};
+		F62D0D6CB99E11ACAA70DB7E488D15DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SamuraiTransition;
+			target = 86C316A5B8DEBC6E1F6E28193202811E /* SamuraiTransition */;
+			targetProxy = F24132230F0E96C96715D0B873DE64D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00DB91C2629677AB5A6E264E0CD142C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0E439F4A651447E83E1CE428B06A78 /* ViewAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewAnimator/ViewAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
+				PRODUCT_MODULE_NAME = ViewAnimator;
+				PRODUCT_NAME = ViewAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F5CE9157A6944C572608740FA41A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		31E9EA88F6D0E2FCFE42F1533ABA47AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22524A99BBC19D742A29F8AE462D56FB /* SamuraiTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SamuraiTransition/SamuraiTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SamuraiTransition/SamuraiTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SamuraiTransition/SamuraiTransition.modulemap";
+				PRODUCT_MODULE_NAME = SamuraiTransition;
+				PRODUCT_NAME = SamuraiTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		324F96D25669BDBD47479B68C6B95B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22524A99BBC19D742A29F8AE462D56FB /* SamuraiTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SamuraiTransition/SamuraiTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SamuraiTransition/SamuraiTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SamuraiTransition/SamuraiTransition.modulemap";
+				PRODUCT_MODULE_NAME = SamuraiTransition;
+				PRODUCT_NAME = SamuraiTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43004625A102DB8F3C5BEA562C6E523B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD4F455AF815A1D148EE5A12AFDB964 /* Pods-SuperChat-SuperChatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperChat-SuperChatUITests/Pods-SuperChat-SuperChatUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperChat-SuperChatUITests/Pods-SuperChat-SuperChatUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A91922E714119713DE623E9F04FE5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0E439F4A651447E83E1CE428B06A78 /* ViewAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewAnimator/ViewAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
+				PRODUCT_MODULE_NAME = ViewAnimator;
+				PRODUCT_NAME = ViewAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52B87DDD46D1B76048DE162FC31002BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84AF8E44383E85F381410688C211BAC4 /* Pods-SuperChat.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperChat/Pods-SuperChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperChat/Pods-SuperChat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9427C8024A8A7CB02296BFB7489D39A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039F7CC89970F15EE3B096BC4020D3C9 /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1D9974A71D54848365031E252EB792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039F7CC89970F15EE3B096BC4020D3C9 /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A329B88E2034A2DE99F62BA93E9418D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A3DBDC18B1A9B66D0FEF4AFCBF48F4 /* Pods-SuperChatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperChatTests/Pods-SuperChatTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperChatTests/Pods-SuperChatTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A901178FAF8CC9C98E32DF543DC7B907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1105E4DDF41656338A2D26FE9E1542 /* Pods-SuperChatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperChatTests/Pods-SuperChatTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperChatTests/Pods-SuperChatTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B102853BB3392A16E68667C38114BC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BCC354D68CC4BB0929407692E48A317E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC22A91AC5D21FF712BD07EB2B57716E /* Pods-SuperChat-SuperChatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperChat-SuperChatUITests/Pods-SuperChat-SuperChatUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperChat-SuperChatUITests/Pods-SuperChat-SuperChatUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFCA8D99029574B70CB63D1ACCCBD3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F875DE330571A7751848A40DB843B377 /* Pods-SuperChat.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperChat/Pods-SuperChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperChat/Pods-SuperChat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5CE9157A6944C572608740FA41A6A5 /* Debug */,
+				B102853BB3392A16E68667C38114BC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539777089611DB914FD4BA77C0A97DFB /* Build configuration list for PBXNativeTarget "Pods-SuperChat-SuperChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC354D68CC4BB0929407692E48A317E /* Debug */,
+				43004625A102DB8F3C5BEA562C6E523B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFE5199A9D90502DB139AEABA7CBE7B /* Build configuration list for PBXNativeTarget "ViewAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DB91C2629677AB5A6E264E0CD142C3 /* Debug */,
+				4A91922E714119713DE623E9F04FE5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FF517A6797B3C4C041829803159238 /* Build configuration list for PBXNativeTarget "Pods-SuperChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A329B88E2034A2DE99F62BA93E9418D0 /* Debug */,
+				A901178FAF8CC9C98E32DF543DC7B907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5286277A987DA4E2CD905351D2E1D4 /* Build configuration list for PBXNativeTarget "SamuraiTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E9EA88F6D0E2FCFE42F1533ABA47AC /* Debug */,
+				324F96D25669BDBD47479B68C6B95B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF51363E12AC23FBCB614E9F1D1D1D6 /* Build configuration list for PBXNativeTarget "Pods-SuperChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCA8D99029574B70CB63D1ACCCBD3FD /* Debug */,
+				52B87DDD46D1B76048DE162FC31002BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E597D9C69E5746DA8B67E92762F51127 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1D9974A71D54848365031E252EB792 /* Debug */,
+				9427C8024A8A7CB02296BFB7489D39A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
